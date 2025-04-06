@@ -65,7 +65,7 @@ def cohort_analyse(df, target_date_field, retention_target_field, year):
     st.title("Análise de Cohort — Retenção de Clientes em " + str(year))
 
     # Criando o heatmap com matplotlib
-    fig, ax = plt.subplots(figsize=(10, 5))
+    fig, ax = plt.subplots(figsize=(20, 10))
     sns.heatmap(
         data=retention,
         annot=True,
