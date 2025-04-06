@@ -70,6 +70,7 @@ def cohort_analyse(df, target_date_field, retention_target_field, year):
     fig, ax = plt.subplots(figsize=(10, 5))
     sns.heatmap(
         data=retention,
+        annot=True,
         fmt='.0%',
         cmap='Blues',
 
