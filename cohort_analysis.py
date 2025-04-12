@@ -71,7 +71,6 @@ def cohort_analyse(df, target_date_field, retention_target_field, year):
         annot=True,
         fmt='.0%',
         cmap='Blues',
-
         ax=ax
     )
 
